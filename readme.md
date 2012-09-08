@@ -1,15 +1,19 @@
 About
 -----
-This is a syntax highlighting package for a toy language called
-ParselTongue that is used in Brown CS's course on programming
+This is a Sublime Text 2 syntax highlighting package for a toy language 
+called ParselTongue that is used in Brown CS's course on programming
 languages. If you aren't taking that class, this will not be
 useful to you.
 
 Installing
 ----------
-Either copy or symlink ParselTongue.tmLanguage in the User packages
-folder (accessible via a menu, varies by platform). It will then
-recognize .psl files as ParselTongue and highlight accordingly.
+If you have Package Control installed, then run Package Control: Add
+Repository and enter http://github.com/dbp/sublime-parsel; then you can
+Package Control: Install Package and enter sublime-parsel.
+
+Alternatively, you can either copy or symlink ParselTongue.tmLanguage 
+in the User packages folder (accessible via a menu, varies by platform). 
+It will then recognize .psl files as ParselTongue and highlight accordingly.
 
 Improvements
 ------------

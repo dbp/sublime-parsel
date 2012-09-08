@@ -1,0 +1,9 @@
+{ "name": "ParselTongue Comments",
+  "scope": "source.parsel",
+  "settings": {
+    "shellVariables": [{"name": "TM_COMMENT_START", "value": "# "},
+                       {"name": "TM_COMMENT_DISABLE_INDENT", "value": "no"}
+                        ]
+    },
+  "uuid": "854C29E5-08D4-4490-BF3F-1964682B8922"
+}
