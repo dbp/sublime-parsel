@@ -11,9 +11,10 @@ If you have Package Control installed, then run Package Control: Add
 Repository and enter http://github.com/dbp/sublime-parsel; then you can
 Package Control: Install Package and enter sublime-parsel.
 
-Alternatively, you can either copy or symlink ParselTongue.tmLanguage 
-in the User packages folder (accessible via a menu, varies by platform). 
-It will then recognize .psl files as ParselTongue and highlight accordingly.
+Alternatively, you can either copy or symlink ParselTongue.tmLanguage and
+ParselTongueComments.tmPreferences in the User packages folder (accessible
+via a menu, varies by platform). It will then recognize .psl files as
+ParselTongue and highlight accordingly.
 
 Improvements
 ------------
