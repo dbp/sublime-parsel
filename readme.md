@@ -16,6 +16,14 @@ ParselTongueComments.tmPreferences in the User packages folder (accessible
 via a menu, varies by platform). It will then recognize .psl files as
 ParselTongue and highlight accordingly.
 
+It also has a build system, but it expects that you will have a shell script
+named `psl` in the path. You can create one by putting something like this:
+
+    #!/bin/bash
+    /path/to/assignment1-<platform> --interp < $1
+
+in your path.
+
 Improvements
 ------------
 There may be mistakes or things it doesn't highlight - feel free
@@ -23,3 +31,8 @@ to make changes, but make changes to the .JSON-tmLanguage file,
 and use the sublime package AAAPackageDev to convert that to
 the propertylist file. Pull requests welcome, but if you have
 only changes the .tmLanguage file, they will be rejected.
+
+Contributors
+-------
+Daniel Patterson (dbp)
+Ganesh Gunasegaran (itsgg)
