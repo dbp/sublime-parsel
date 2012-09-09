@@ -1,0 +1,4 @@
+{
+  "cmd": ["psl", "$file"],
+  "selector": "source.parsel"
+}
