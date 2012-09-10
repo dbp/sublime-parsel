@@ -7,14 +7,14 @@
      "end": "\""
     },
     {"name": "meta.function.source.parsel",
-     "match": "\\b(deffun)\\s+([a-zA-Z_]+)\\s*(\\()",
+     "match": "\\b(deffun)\\s+([a-zA-Z0-9_]+)\\s*(\\()",
      "captures": {
         "1": {"name": "keyword.source.parsel"},
         "2": {"name": "entity.name.function.source.parsel"}
         }
     },
     {"name": "meta.function.source.parsel",
-     "match": "\\b(defvar)\\s+([a-zA-Z_]+)\\s*(\\=)",
+     "match": "\\b(defvar)\\s+([a-zA-Z0-9_]+)\\s*(\\=)",
      "captures": {
         "1": {"name": "keyword.source.parsel"},
         "2": {"name": "entity.name.function.source.parsel"}
